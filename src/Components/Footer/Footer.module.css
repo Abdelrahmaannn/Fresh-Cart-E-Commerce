@@ -1,0 +1,53 @@
+
+
+footer
+{
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.brandLogo
+{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border-right: 1px solid #6C7275;
+    padding-right: 20px;
+}
+
+.brandSolgan
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #E8ECEF ;
+    padding-left: 30px;
+}
+
+.myLinks
+{
+    font-size: 12px;
+    color: azure;
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+}
+
+.footerdiv
+{
+    border-bottom: 2px solid #6C7275 ;
+}
+
+.foot
+{
+    color: #E8ECEF;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+
+}
+
+
+/* 
+#E8ECEF */

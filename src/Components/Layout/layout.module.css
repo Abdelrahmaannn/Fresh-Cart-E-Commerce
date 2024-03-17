@@ -1,0 +1,18 @@
+
+
+.Offline
+{
+    position: absolute;
+    top: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px black solid;
+    padding: 40px;
+    z-index: 888;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}

@@ -1,0 +1,138 @@
+
+.hero
+{
+    width: 22%;
+    left: 43%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main
+{
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.back
+{
+    width: 38%;
+}
+
+
+.secondary
+{
+    font-size: 20px;
+}
+
+.maindiv
+{
+    height: 100vh;
+}
+
+
+
+
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: .3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: .3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+  }
+  
+  .button:hover .svgIcon {
+    width: 50px;
+    transition-duration: .3s;
+    transform: translateY(60%);
+  }
+  
+  .button::before {
+    position: absolute;
+    top: -20px;
+    content: "Delete";
+    color: white;
+    transition-duration: .3s;
+    font-size: 2px;
+  }
+  
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: .3s;
+  }
+
+
+  .h2
+  {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+  }
+
+  .h4
+  {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  .confirmationSection
+  {
+    border: 1px solid black;
+    padding: 60px;
+    border-radius: 9px;
+  }
+
+
+
+
+
+
+@media screen and (max-width:500px) 
+{
+    .back
+    {
+        width: 80%;
+    }
+
+    .maindiv
+{
+    height: 70vh;
+}
+
+    .hero
+    {
+        width: 70%;
+        left: 22%;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+}

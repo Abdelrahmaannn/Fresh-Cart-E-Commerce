@@ -1,0 +1,87 @@
+.mybg {
+  background-image: linear-gradient(
+      rgba(000, 000, 000, 0.8),
+      rgba(000, 000, 000, 0.8)
+    ),
+    url("../../assets/finalProject assets/finalProject assets/images/bg-img.png");
+  height: 110vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* overflow: auto; */
+  font-family: "Space Grotesk", sans-serif !important;
+}
+
+.myForm {
+  background-color: rgb(255, 255, 255);
+
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  overflow: auto;
+  padding: 50px 60px ;
+  border-radius: 24px;
+  margin-top: 70px;
+}
+
+.myInput {
+  width: 80% !important;
+}
+
+.myInput:focus {
+  box-shadow: 0 0 0 0 rgb(0, 0, 0) !important;
+}
+
+.myBtn
+{
+    margin-top: 15px;
+    width: 80%;
+    background-color: #212121 !important;
+    color: azure !important;
+}
+
+.myBtn:hover
+{
+    background-color: #0f0f0f !important;
+}
+
+.myh3
+{
+    font-size: 12.8px;
+}
+.myh2
+{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.solgan
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myh1
+{
+    color: azure;
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+
+.myp
+{
+    color: azure;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.myspan
+{
+    color: rgb(255, 53, 53);
+}

@@ -1,0 +1,110 @@
+
+
+.h2
+{
+    font-family: "Space Grotesk", sans-serif !important;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.img
+{
+    width: 15%;
+}
+
+.h4
+{
+    font-family: "Space Grotesk", sans-serif !important;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+.purchasesCard
+{
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.h5
+{
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+
+
+.productCard
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.productimg
+{
+    border-radius: 10px;
+}
+
+.mainpayments
+{
+    color: aliceblue;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+
+
+.hero
+{
+    width: 22%;
+    left: 43%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main
+{
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.back
+{
+    width: 38%;
+}
+
+
+.secondary
+{
+    font-size: 20px;
+}
+
+.maindiv
+{
+    height: 100vh;
+}
+
+
+@media screen and (max-width:500px) 
+{
+    .back
+    {
+        width: 80%;
+    }
+
+    .maindiv
+{
+    height: 70vh;
+}
+
+    .hero
+    {
+        width: 70%;
+        left: 22%;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+}

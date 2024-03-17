@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.rating
+{
+    color: #343839;
+    padding-top: 15px;
+}
+
+/* .favRedColor
+{
+    color: rgb(229, 6, 6);
+} */
+
+
+.categoryType
+{
+    padding-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #343839;
+    font-weight: 600;
+}
+
+.productName
+{
+    margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #343839;
+    font-weight: 500;
+}
+
+.productPrice
+{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #343839;
+    font-weight: 600;
+}
+
+.productPriceDiscount
+{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: rgb(248, 26, 26);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.mainCard
+{
+    padding: 10px;
+    transition: all 0.2s;
+
+}
+
+
+.mainCard:hover
+{
+
+    box-shadow: 7px 5px 10px rgb(74, 74, 74);
+
+}
+
+.linkdecoration
+{
+    text-decoration: none;
+}
+
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: .3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: .3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+  }
+  
+  .button:hover .svgIcon {
+    width: 50px;
+    transition-duration: .3s;
+    transform: translateY(60%);
+  }
+  
+  .button::before {
+    position: absolute;
+    top: -20px;
+    content: "Delete";
+    color: white;
+    transition-duration: .3s;
+    font-size: 2px;
+  }
+  
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: .3s;
+  }
+
+
+  .hero
+{
+    width: 22%;
+    left: 43%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main
+{
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.back
+{
+    width: 38%;
+}
+
+
+.secondary
+{
+    font-size: 20px;
+}
+
+.maindiv
+{
+    height: 100vh;
+}
+
+
+@media screen and (max-width:500px) 
+{
+    .back
+    {
+        width: 80%;
+    }
+
+    .maindiv
+{
+    height: 70vh;
+}
+
+    .hero
+    {
+        width: 70%;
+        left: 22%;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+}

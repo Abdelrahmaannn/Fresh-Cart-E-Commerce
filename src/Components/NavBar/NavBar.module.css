@@ -1,0 +1,27 @@
+
+
+.mybrand
+{
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.myItem
+{
+
+    color: rgb(0, 0, 0) !important;
+
+    font-family: "Space Grotesk", sans-serif !important;
+    
+}
+
+.ActiveLink
+{
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+}
