@@ -91,7 +91,7 @@ function Profile() {
                 }) ) : (           <div
                   className={"text-center position-relative mt-5  " + profilecss.maindiv}
                 >
-                  <h1 className={profilecss.main}>Your Cart Is Empty</h1>
+                  <h1 className={profilecss.main}>You haven't any order</h1>
                   <h3 className={profilecss.secondary}>Go explore some categories</h3>
         
                   <div className="text-center position-relative  mt-sm-5  ">
